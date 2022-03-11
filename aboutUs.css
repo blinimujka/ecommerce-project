@@ -1,0 +1,207 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+
+border: solid 3px black;
+background-color: rgb(13, 13, 14);
+height: 70px;
+
+}
+.header span {
+color: white;
+font-size: 30px;
+float: right;
+margin-right: 99px;
+margin-top: 17px;
+}
+
+.logo{
+margin-top: 6px;
+margin-bottom: 6px;
+margin-left: 99px;
+height: 58px;
+width: 120px;
+
+}
+body {
+    background-color: white;
+  }
+
+
+.container {
+margin-top: 5%;
+width: 40%;
+left: 30%;
+min-height: 270px;
+height: auto;
+position: relative;
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+
+}
+.first-div{
+    
+    margin-top: 5%;
+    display: flex;
+    height: 400px;
+}
+.first-div-text{
+    margin: 2% 0 0 5%;
+    width: 30%;
+    
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    border-bottom: rgb(243, 19, 19) 2px solid;
+    width: max-content;
+  margin-bottom: 30px;
+}
+
+p{
+    font-family: 'Raleway', sans-serif;
+    
+}
+.first-div-img{
+position: relative;
+display: flex;
+left: 10%;
+
+width: 50%;
+
+}
+.first-div-img img {
+      margin:0 20px 0 20px;
+height: 400px;
+width: 300px;
+}
+
+.second-div{
+  
+    margin-top: 15%;
+    display: flex;
+    height: 400px;
+}
+
+.second-div-text{
+
+    position: relative;
+    margin-top:2%;
+    left: 18%;
+    width: 30%; 
+}
+.second-div-img{
+    position: relative;
+    left: 5%;
+    }
+
+.second-div-img img {
+    height: 400px;
+    width: 620px;
+    }
+
+/*
+
+
+
+Pjesa e FAQ
+
+
+
+
+----------------------------------------------------------------------------------------------------
+*/
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+/*
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Muli', sans-serif;
+  background-color: #f0f0f0;
+}
+*/
+h1 {
+  margin: 50px 0 30px;
+  text-align: center;
+}
+
+.faq-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.faq {
+  background-color: transparent;
+  border: 1px solid #9fa4a8;
+  border-radius: 10px;
+  margin: 20px 0;
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s ease;
+}
+
+.faq.active {
+  background-color: #fff;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.faq-title {
+    border-bottom: none;
+  margin: 0 35px 0 0;
+}
+
+.faq-text {
+  display: none;
+  margin: 30px 0 0;
+}
+
+.faq.active .faq-text {
+  display: block;
+}
+
+.faq-toggle {
+  background-color: transparent;
+  border: 0;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  padding: 0;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  height: 30px;
+  width: 30px;
+}
+
+.faq-toggle:focus {
+  outline: 0;
+}
+
+.faq-toggle .fa-times {
+  display: none;
+}
+
+.faq.active .faq-toggle .fa-times {
+  color: #fff;
+  display: block;
+}
+
+.faq.active .faq-toggle .fa-chevron-down {
+  display: none;
+}
+
+.faq.active .faq-toggle {
+  background-color: #9fa4a8;
+}
+        

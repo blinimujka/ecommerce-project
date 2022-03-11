@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+header{
+    display: flex;
+     border: solid 3px black;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(14, 13, 13);
+    height: 70px;
+}
+
+.logo{
+    margin-top: 7px;
+    margin-bottom: 6px;
+    height: 58px;
+    width: 9vw;
+    
+}
+.nav-left a{
+    color: rgb(219, 218, 218);
+}
+
+.nav-left{
+display: flex;
+justify-content: space-between;
+width: 17vw;
+}
+
+
+
+.search-box {
+    background: #2f3031;
+    
+    height: 40px;
+    width: 40vw;
+    border-radius: 10px;
+    padding: 10px;
+   }
+   
+   .search-btn {
+    
+    float: right;
+    width: 40px;
+    height: 40px;
+    
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    color: white;
+    cursor: pointer;
+    text-decoration:none;
+  
+   }
+   
+   
+   
+   .search-txt {
+    width: 25vw;
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    line-height: 40px;
+    font-weight: bold;
+   }
+   
+   .slider img{
+  
+    margin: auto;
+    height: 100%;
+    width: 100%;
+ 
+   }
+   .slider{
+ 
+    margin: 3% 0 0 10%;
+    height: 300px;
+    width: 80%;
+    
+}
+
+
+   
+  .product-list{
+      display: flex;
+      margin: 3% 30px;
+      justify-content: space-around;
+      flex-wrap: wrap;
+  }
+   .product{
+       max-height: 300px;
+      border: solid 1px black;
+      padding: 20px;
+      margin-top: 20px;
+      margin-left: 20px;
+      text-overflow: ellipsis;
+  white-space: nowrap;
+      
+  }
+  #icon-cart{
+   float: right;
+   color: black;
+ }
+
+
+.product-img img{
+    width: 220px;
+    height: 150px;
+}
+.product-text a{
+    text-decoration: none;  
+}
+.product-name{
+    
+    inline-size: 200px; 
+    overflow: hidden;     
+    margin-top: 20px;
+    margin-bottom: 2px;
+    font-size: 16px;
+}
+
+
+.popular-brands{    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;   
+    height: 250px;
+   border: 2px solid lightgray;
+}
+ 
+
+.product-logo{
+    width: 290px;
+    height: 190px;
+}
+.cart-number{
+   position: absolute;
+    color: white;
+    font-size: 18px;
+    font-weight: 900;
+    top:10px;
+  padding:3px;
+}
+
+footer{
+   
+    margin-top: 15%;
+    height: 350px;
+    background-color: rgb(14, 13, 13);;
+    color: white;
+}
+.footer-text
+{
+    display: flex;
+    justify-content: space-evenly;
+    height: 250px;
+}
+
+.footer-text  ul {
+    list-style: none;
+    line-height: 40px;
+    
+   
+}
+footer ul a:first-child{
+    margin-bottom: 7px;
+ color: white;
+    font-size: 22px;
+    font-weight: 900;
+    text-decoration: none;
+
+}
+footer ul a:not(:first-child){
+    color: rgba(255, 255, 255, 0.658);
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    }
+
+.footer-bottom{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    border-top: 1px solid grey;
+    height: 100px;
+    width: auto;
+    background-color:black;
+   
+}
+#footer-img{
+width: 130px;
+height: 80px;
+
+}
+.socials{
+    display: flex;
+    width: 200px;
+    margin:20px 20px 0 0;
+    float: right;
+    justify-content: space-between;
+    
+  }
+  .socials a {
+    color: white;
+    text-decoration: none;
+  }
+
+  /* 
+  NAV MENU 
+  */
+.menu-bar-categories{
+    width: 500px;
+    height: fit-content;
+    background-color: black;
+    color: white;
+    left: 60%;
+    position: absolute;
+  display: flex;
+    border-radius: 10px;
+    display: none;
+    
+}
+.menu-bar-categories ul{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    
+}
+
+.menu-bar-categories > ul >li{ 
+    margin: 20px 0 20px 10px;
+    list-style: none;
+    
+}
+
+
+
+
+
+.footer-text  ul {
+    list-style: none;
+    line-height: 40px;
+       
+}
+
+
+    @media only screen and (max-width: 375px) {
+      .logo{
+          display: none;
+      }
+      .search-box{
+          width: 180px;
+          margin-left: -60px;
+      }
+
+        footer ul a:first-child{
+
+            line-height:15px;
+         color: white;
+           font-size: 15px;
+ }
+ footer ul a{
+     line-height: 20px;
+ }
+
+    }
+

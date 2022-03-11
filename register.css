@@ -1,0 +1,128 @@
+
+
+*{
+        margin: 0;
+        padding: 0;
+    }
+.header{
+  
+    border: solid 3px black;
+    background-color: rgb(13, 13, 14);
+    height: 70px;
+}
+.logo{
+   margin-top: 6px;
+   margin-bottom: 6px;
+   margin-left: 99px;
+   height: 58px;
+   width: 120px;
+   
+}
+
+
+
+.container {
+    margin-top: 5%;
+    width: 40%;
+    left: 30%;
+    min-height: 270px;
+    height: auto;
+    position: relative;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  
+}
+
+.hidden {
+    display: none;
+}
+
+
+
+.link-container {
+    display: flex;
+    justify-content: space-evenly;
+    height: 50px;
+}
+
+.link-container a {
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 300;
+    color: black;
+    width: 20%;
+    text-align: center;
+    padding-top: 10px;
+    transition: all 0.2s ease;
+   
+}
+#pwd-req-display{
+    margin-top: 3%;
+    color: red;
+    visibility: hidden;
+}
+
+
+.link-container>a:hover {
+    color: crimson;
+    border-bottom: crimson 3px solid;
+    transition: all 0.1s;
+}
+
+.form-style {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+}
+#mainForm{
+    margin-top: 20px;
+}
+
+
+
+.form-style .input {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 60%;
+    position: relative;
+    left: 20%;
+    border: 0px;
+    padding-left: 10px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(245, 245, 245);
+    border: 1px solid grey;
+
+}
+
+
+.forms {
+    height: auto;
+}
+
+#submit {
+    width: 62%;
+    left: 20%;
+    background-color: #eb0c0c;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    color: white;
+    font-size: 20px;
+  
+}
+
+.greyInput{
+    border: 1px solid grey;
+}
+.redInput{
+    border: 1px solid red;
+}
+
+
+    
+
+

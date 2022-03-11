@@ -1,0 +1,99 @@
+
+.dashboard{
+    background-color: 	#eb0c0c;
+    position: relative;
+    top: 15vh;
+    text-align: center;
+    border-collapse: collapse;
+    border-spacing: 0;
+    box-shadow: 0 2px 15px rgba(64,64,64,.7);
+    border-radius: 12px 12px 12px 12px;
+    font-family: 'Open Sans',Sans-serif;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    color: blanchedalmond;
+}
+.table-container{
+    padding-bottom: 200px;    
+}
+.user-list-table{
+    width: 60%; 
+    border-collapse: collapse;
+    box-shadow: 0 2px 15px rgba(64,64,64,.7);
+    border-radius: 12px 12px 0 0;
+    overflow: hidden;
+    margin: auto;
+    position: relative;
+    top: 18vh;
+}
+.user-list-table td , th{
+    padding: 15px 20px;
+    text-align: center;
+}
+.user-list-table th{
+    background-color: 	black;
+    color: #fafafa;
+    font-family: 'Open Sans',Sans-serif;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+.user-list-table tr{
+    width: 100%;
+    background-color: #fafafa;
+}
+.user-list-table tr:nth-child(even){
+    background-color: #eeeeee;
+}
+/*
+
+
+Input 
+
+forms
+
+*/
+
+form {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+}
+
+form input {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 30%;
+   
+    margin: auto;
+    border: 0px;
+    margin-top: 15px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(245, 245, 245);
+    border: 1px solid grey;
+
+}
+
+.inputTitle{
+    background-color: aqua;
+    margin: auto;
+}
+.submit {
+    width: 15%;
+    background-color: #eb0c0c;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    color: white;
+    font-size: 16px;
+  
+}
+
+.greyInput{
+    border: 1px solid grey;
+}
+.redInput{
+    border: 1px solid eb0c0c;
+}
